@@ -46,7 +46,7 @@ CC = arm-none-eabi-gcc
 CXX = arm-none-eabi-g++
 OBJCOPY = arm-none-eabi-objcopy
 SIZE = arm-none-eabi-size
-TYC = ../ty/tyc/tyc
+TYC = tycmd
 
 # automatically create lists of the sources and objects
 LC_FILES := $(wildcard $(LIBRARYPATH)/*/*.c)
